@@ -15,7 +15,7 @@ plotly>=5.15.0
 
 # Configuration and utilities
 pyyaml>=6.0
-python-dotenv>=1.0.0
+python-dotenv>=1.2.4
 tqdm>=4.65.0
 loguru>=0.7.0
 
