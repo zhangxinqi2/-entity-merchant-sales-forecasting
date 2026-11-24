@@ -22,7 +22,7 @@ loguru>=0.7.0
 # Model-specific dependencies
 # For Chronos-2
 chronos-forecasting>=2.0.0
-accelerate>=0.25.0
+accelerate>=1.16.0
 
 # For TimesFM
 einops>=0.7.0
