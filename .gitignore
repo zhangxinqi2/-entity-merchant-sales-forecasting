@@ -1,0 +1,131 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Node / Vite
+# ---------------------------------------------------------------------------
+node_modules/
+web/node_modules/
+web/dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------------------------------
+# Model weights and other large binaries
+# ---------------------------------------------------------------------------
+forecasting/models/**/*.safetensors
+forecasting/models/**/*.bin
+forecasting/models/**/*.ckpt
+forecasting/models/**/*.onnx
+forecasting/models/**/*.pth
+forecasting/models/**/*.pt
+forecasting/models/**/*.h5
+*.safetensors
+*.ckpt
+*.onnx
+*.pth
+*.pt
+*.bin
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.mkv
+*.mp4
+*.mov
+*.avi
+
+# ---------------------------------------------------------------------------
+# Raw / private data (never commit merchant or competition data)
+# ---------------------------------------------------------------------------
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+*.xlsx
+*.xls
+*.xlsm
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pdf
+*.sqlite
+*.db
+*.sql
+!.env.example
+!.config.ini.example
+!data/sample/*.csv
+!forecasting/config.ini.example
+!forecasting/.env.example
+
+# ---------------------------------------------------------------------------
+# Secrets / local configuration
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+config.ini
+!.config.ini.example
+.pypirc
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# ---------------------------------------------------------------------------
+# Logs / outputs
+# ---------------------------------------------------------------------------
+*.log
+logs/
+outputs/
+forecasting/outputs/
+forecasting/data/*.csv
+forecasting/data/*.parquet
+
+# ---------------------------------------------------------------------------
+# OS / IDE / agent files
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# ---------------------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------------------
+*.tmp
+*.bak
+~$*

@@ -1,0 +1,23 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
+*.zip binary
+*.safetensors binary
+*.onnx binary
+*.ckpt binary
+
+*.py text
+*.js text
+*.vue text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+*.csv text

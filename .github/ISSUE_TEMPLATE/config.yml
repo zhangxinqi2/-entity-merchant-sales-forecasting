@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 文档 / Documentation
+    url: https://github.com/zhangxinqi2/-entity-merchant-sales-forecasting/tree/main/docs
+    about: 先查看架构、数据格式、部署和常见问题。
+  - name: 安全问题 / Security
+    url: https://github.com/zhangxinqi2/-entity-merchant-sales-forecasting/security/advisories/new
+    about: 请通过私密渠道报告安全漏洞，不要公开提交 Issue。

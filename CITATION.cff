@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this project in academic work, please cite it using the metadata below."
+type: software
+title: "Entity Merchant Sales Forecasting Platform"
+abstract: "A sanitized, runnable demo of an end-to-end sales forecasting platform for physical merchants, combining a Vue 3 dashboard with a Python zero-shot time-series forecasting engine."
+authors:
+  - name: "NOX"
+    website: "https://github.com/zhangxinqi2"
+repository-code: "https://github.com/zhangxinqi2/-entity-merchant-sales-forecasting"
+url: "https://github.com/zhangxinqi2/-entity-merchant-sales-forecasting"
+license: "Apache-2.0"
+version: "1.0.0"
+date-released: "2026-11-24"
+keywords:
+  - time-series
+  - sales-forecasting
+  - retail
+  - vue
+  - pytorch
+  - chronos
+  - timesfm
+  - tirex
