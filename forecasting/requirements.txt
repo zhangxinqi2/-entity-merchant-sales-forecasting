@@ -25,7 +25,7 @@ chronos-forecasting>=2.0.0
 accelerate>=0.25.0
 
 # For TimesFM
-einops>=0.7.0
+einops>=0.8.2
 
 # For TiRex
 tirex>=0.0.2
