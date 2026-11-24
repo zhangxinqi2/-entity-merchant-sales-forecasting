@@ -71,6 +71,11 @@ VITE_BASE=/entity-merchant-sales-forecasting/ npm run build
 
 如果仓库改名，工作流会自动使用新仓库名；本地构建时记得同步修改 `VITE_BASE`。
 
+> **重要：** Pages 必须先手动启用一次。GitHub Actions 的 `GITHUB_TOKEN` 没有权限替你创建
+> Pages 站点；如果工作流报 `Resource not accessible by integration`，请到
+> **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，然后重新运行
+> `Deploy Web Demo` 工作流。
+
 ### 为什么使用 hash 路由
 
 前端使用 `createWebHashHistory()`，URL 形如：

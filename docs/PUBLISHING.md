@@ -296,6 +296,10 @@ gh repo edit zhangxinqi2/-entity-merchant-sales-forecasting `
 gh workflow run "Deploy Web Demo"
 ```
 
+> 如果 `Deploy Web Demo` 报 `Resource not accessible by integration`，说明 Pages 还没有启用。
+> `GITHUB_TOKEN` 不能替你创建 Pages 站点，必须先在 **Settings → Pages** 把 Source 设为
+> **GitHub Actions**，然后重新运行工作流。
+
 ### 5.4 设置社交预览图
 
 **Settings → General → Social preview**，上传：

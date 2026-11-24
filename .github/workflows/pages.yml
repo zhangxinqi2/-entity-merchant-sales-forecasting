@@ -46,7 +46,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
-          # Enable Pages (GitHub Actions source) automatically on the first run.
+          # Best effort only. GitHub Actions cannot create the Pages site with
+          # the default GITHUB_TOKEN; enable it once in Settings -> Pages ->
+          # Source: GitHub Actions. See docs/deployment.md.
           enablement: true
 
       - name: Upload artifact
